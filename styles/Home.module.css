@@ -12,6 +12,10 @@
   align-items: center;
 }
 
+.code_string {
+  color: #e69130
+}
+
 .footer {
   display: flex;
   flex: 1;

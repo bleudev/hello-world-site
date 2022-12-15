@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import code from '../styles/code.css'
 
 export default function Home() {
   return (
@@ -12,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className={styles.title}>Welcome to <a className={code.string}>&quot;Hello, world&quot;</a></h1>
+      <h1 className={styles.title}>Welcome to <a className={styles.code_string}>&quot;Hello, world&quot;</a></h1>
 
       <main>
         <p className={styles.description}>
