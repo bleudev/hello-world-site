@@ -12,9 +12,11 @@
   align-items: center;
 }
 
+/* Code */
 .code_string {
-  color: #e69130
+  color: #59ffe6
 }
+/* End of code classes */
 
 .footer {
   display: flex;
