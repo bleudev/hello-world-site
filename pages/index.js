@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Text from 'react'
+import { Text } from 'react'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
