@@ -35,7 +35,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Links &rarr;</h2>
-            <p>Our projects's links</p>
+            <p>Links of our projects</p>
           </a>
         </div>
       </main>
