@@ -13,6 +13,7 @@ export default function Home() {
 
       <h1 className={styles.title}>Welcome to <strong className={styles.code}>Hello, world</strong></h1>
 
+      <main>
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
