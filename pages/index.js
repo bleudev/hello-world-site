@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Text } from 'react'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className={styles.title}>Welcome to <Text className={styles.code_string}>&quot;Hello, world&quot;</Text></h1>
+      <h1 className={styles.title}>Welcome to <text className={styles.code_string}>&quot;Hello, world&quot;</text></h1>
 
       <main>
         <p className={styles.description}>
