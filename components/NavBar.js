@@ -4,9 +4,8 @@ import Head from 'next/head'
 
 import styles from './NavBar_styles.css'
 
-export default class NavBar extends Component {
-    render() {
-        return (
+export default function NavBar() {
+    return (
         <div className={styles.navbar}>
             <div className={styles.navlogo}>
                 Hello, world
@@ -22,6 +21,5 @@ export default class NavBar extends Component {
                 </Link>
             </div>
         </div>
-        )
-    }
+    )
 }
