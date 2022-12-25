@@ -21,7 +21,7 @@ export default function p1() {
                 <h2 className='lp-a2'>Первые строчки</h2>
                 <p>Откройте Vs code, создайте файл test.py и напишите данный код:</p>
                 <div className="lp-code-block">
-                    <p><code>print("Hi")</code></p>
+                    <p><code>print(&quot;Hi&quot;)</code></p>
                 </div>
                 <p>Затем откройте консоль в данной директории (папке) и выполните команду <strong>python test.py</strong>. Теперь в консоль
                 была выведена строка <strong>Hi</strong></p>
