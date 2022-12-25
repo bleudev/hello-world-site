@@ -9,9 +9,28 @@ export default function p1() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main>
-                <h1 className='lp-h1'>Урок 1 | Знакомство с Пайтон</h1>
+                <h1 className='lp-a1'>Урок 1 | Знакомство с Пайтон</h1>
+                <h2 className='lp-a2'>Что такое Пайтон?</h2>
                 <p>Пайтон (Python) - высокоуровневый интерпретируемый открытый язык программирования, используемый в нейронных сетях,
-                    разработке сайтов, работе с интернетом и многое другое</p>
+                    разработке сайтов, работе с интернетом и многом другом. В данном курсе мы изучим этот язык программирования</p>
+                <h2 className='lp-a2'>Начало работы</h2>
+                <p>Для начала необходимо установить язык. Перейдите на <a href="https://python.org">этот сайт</a>, нажмите на кнопку <strong>Download</strong>,
+                    выберите нужную версию и скачайте exe файл. Откройте его и нажмите на кнопку <strong>Install</strong>. Готово! Дальше
+                    необходимо установить IDE. Советую установить Visual Studio Code. Перейдите на <a href="https://code.visualstudio.com/">этот сайт</a>, нажмите
+                    на кнопку <strong>Download</strong> или <strong>Download for платформа</strong>, откройте скачаный exeшник</p>
+                <h2 className='lp-a2'>Первые строчки</h2>
+                <p>Откройте Vs code, создайте файл test.py и напишите данный код:</p>
+                <div className="lp-code-block">
+                    <p><code>print("Hi")</code></p>
+                </div>
+                <p>Затем откройте консоль в данной директории (папке) и выполните команду <strong>python test.py</strong>. Теперь в консоль
+                была выведена строка <strong>Hi</strong></p>
+
+                <h3 className='lp-a2'>Конец урока!</h3>
+                <p>Ждите новый урок</p>
+
+
+                <p>Страница на Гитхаб - <a href="https://github.com/pixeldeee/hello-world-site/blob/main/pages/learn/p1.js">Тык</a></p>
             </main>
         </div>
     )
