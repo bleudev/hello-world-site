@@ -1,5 +1,5 @@
 .navbar {
-    background-color: d4d4d4;
+    background-color: #d4d4d4;
     height: 50;
 }
 
@@ -8,7 +8,7 @@
     padding-right: 2.5%;
     padding-left: 2.5%;
     text-align: center;
-    background-color: bdbdbd;
+    background-color: #bdbdbd;
     float: left;
     margin-right: 10;
 }
@@ -28,7 +28,7 @@
 }
 
 .navlink:hover {
-    background-color: 5674fe;
+    background-color: #5674fe;
     transition-delay: 100ms;
 }
 
