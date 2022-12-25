@@ -1,8 +1,5 @@
-import { Component } from 'react'
 import Link from 'next/link'
-import Head from 'next/head'
-
-import styles from './NavBar_styles.css'
+import styles from '../styles/NavBar.css'
 
 export default function NavBar() {
     return (
