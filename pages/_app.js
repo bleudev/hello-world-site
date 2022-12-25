@@ -1,6 +1,5 @@
 import '../styles/globals.css'
 import '../styles/learn-page.css'
-import '../styles/NavBar.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
