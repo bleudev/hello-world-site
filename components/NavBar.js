@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import Link from 'next/link'
+import '../styles/NavBar.Component.css'
 
 export default class NavBar extends Component {
     render() {
