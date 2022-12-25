@@ -1,18 +1,17 @@
 import Link from 'next/link'
-import styles from '../styles/NavBar.css'
 
 export default function NavBar() {
     return (
-        <div className={styles.navbar}>
-            <div className={styles.navlogo}>
+        <div className='navbar'>
+            <div className='navlogo'>
                 Hello, world
             </div>
-            <div className={styles.navlink}>
+            <div className='navlink'>
                 <Link href='/learn'>
                     <a>Learn</a>
                 </Link>
             </div>
-            <div className={styles.navlink}>
+            <div className='navlink'>
                 <Link href='/test'>
                     <a>Test</a>
                 </Link>
