@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import Link from 'next/link'
 
 export default class NavBar extends Component {
     render() {
@@ -8,10 +9,14 @@ export default class NavBar extends Component {
                 Hello, world
             </div>
             <div className='navlink'>
-                <a href="/learn">Learn</a>
+                <Link href='/learn'>
+                    <a>Learn</a>
+                </Link>
             </div>
             <div className='navlink'>
-                <a href="/test">Test</a>
+                <Link href='/test'>
+                    <a>Test</a>
+                </Link>
             </div>
         </div>
         )
